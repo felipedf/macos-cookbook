@@ -19,14 +19,14 @@ platforms:
 - name: el-capitan-chef13
   driver:
     box: microsoft/os-x-el-capitan
-    version: 10.11.6
+    version: 10.11.6-v2
   provisioner:
     product_version: 13
 
 - name: el-capitan-chef14
   driver:
     box: microsoft/os-x-el-capitan
-    version: 10.11.6
+    version: 10.11.6-v2
   provisioner:
     product_version: 14
 
@@ -47,14 +47,28 @@ platforms:
 - name: high-sierra-chef13
   driver:
     box: microsoft/macos-high-sierra
-    version: 10.13.5
+    version: 10.13.6-v2
   provisioner:
     product_version: 13
 
 - name: high-sierra-chef14
   driver:
     box: microsoft/macos-high-sierra
-    version: 10.13.5
+    version: 10.13.6-v2
+  provisioner:
+    product_version: 14
+
+- name: mojave-chef-13
+  driver:
+    box: microsoft/macos-mojave
+    version: 10.14.0-beta.18A365a.1
+  provisioner:
+    product_version: 13
+
+- name: mojave-chef-14
+  driver:
+    box: microsoft/macos-mojave
+    version: 10.14.0-beta.18A365a.1
   provisioner:
     product_version: 14
 
